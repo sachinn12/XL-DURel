@@ -1,6 +1,6 @@
 # XL-DURel
 
-This repository contains the XL-DURel model and instructions to reproduce the results.
+This repository contains the [**XL-DURel**](https://huggingface.co/sachinn1/xl-durel) along with instructions to reproduce the results presented in the paper: [XL-DURel: Finetuning Sentence Transformers for Ordinal Word-in-Context Classification](https://arxiv.org/pdf/2507.14578).
 
 ## Steps to Reproduce
 
@@ -8,15 +8,13 @@ Follow these steps to set up the environment and run the XL-DURel model:
 
 ### 1. Create a Virtual Environment
 
-Create and activate a Python virtual environment to isolate dependencies:
+Create and activate a Python virtual environment:
 
 ```bash
 python3 -m venv venv
-source ./venv/bin/activate 
+source ./venv/bin/activate
 ```
-
-### 2. Install Required Package
-
+### 2. Install Required Packages
 ```bash
 pip install -r requirements.txt
 ```
@@ -25,11 +23,25 @@ pip install -r requirements.txt
 
 Please [contact us](https://www.ims.uni-stuttgart.de/institut/team/Schlechtweg/) to request access to the dataset.
 
-### 4. Once you have obtained the data, please provide the path to the dataset in the notebook.
 
-Example:
-```python
-dev_df = pd.read_pickle("/projekte/cik/shared/llm/thesis/Semantic_Proximity/data/comedi-wic-mclwic/dev.pkl")
-test_df = pd.read_pickle("/projekte/cik/shared/llm/thesis/Semantic_Proximity/data/comedi-wic-mclwic/test.pkl")
+### 4. Load the Dataset
+After obtaining the dataset, provide the file paths in your notebook or script:
+
+```bash
+dev_df = pd.read_pickle("/path-to/dataset/dev.pkl")
+test_df = pd.read_pickle("/path-to/dataset/test.pkl")
 ```
-### 5. Run the notebook
+
+### 5. Run the Notebook
+
+### Citation
+
+```bash
+@article{XL-DURel2025,
+  title={XL-DURel: Finetuning Sentence Transformers for Ordinal Word-in-Context Classification},
+  author={Sachin Yadav and Dominik Schlechtweg},
+  year={2025},
+  journal={arXiv preprint arXiv:2507.14578}
+}
+```
+
