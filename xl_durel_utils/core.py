@@ -48,7 +48,6 @@ def tokenize_truncate_decode(sentence, positions, tokenizer, max_seq_len=128):
 
         return tokens, token_positions
 
-    # Step 1: Tokenize the sentence with target marking
     tokens, token_positions = tokenize_sentence(sentence, positions)
     
     n_extra_tokens = 2  
@@ -57,7 +56,7 @@ def tokenize_truncate_decode(sentence, positions, tokenizer, max_seq_len=128):
     if len_input > max_seq_len:
         tokens = center_sentence(tokens, token_positions, max_seq_len - n_extra_tokens)
         
-    # Step 4: Decode back to text
+    
     decoded_text = tokenizer.convert_tokens_to_string(tokens)
     return decoded_text
 
