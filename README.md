@@ -37,11 +37,14 @@ test_df = pd.read_pickle("/path-to/dataset/test.pkl")
 ### Citation
 
 ```bash
-@article{XL-DURel2025,
-  title={XL-DURel: Finetuning Sentence Transformers for Ordinal Word-in-Context Classification},
-  author={Sachin Yadav and Dominik Schlechtweg},
-  year={2025},
-  journal={arXiv preprint arXiv:2507.14578}
+@misc{yadav2025xldurelfinetuningsentencetransformers,
+      title={XL-DURel: Finetuning Sentence Transformers for Ordinal Word-in-Context Classification}, 
+      author={Sachin Yadav and Dominik Schlechtweg},
+      year={2025},
+      eprint={2507.14578},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.14578}, 
 }
 ```
 
