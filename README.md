@@ -5,8 +5,13 @@ This repository contains the instructions to reproduce the results presented in 
 ## Steps to Reproduce
 
 Follow these steps to set up the environment and run the XL-DURel model:
+### 1. Clone this repo
 
-### 1. Create a Virtual Environment
+```bash
+git clone https://github.com/sachinn12/XL-DURel.git
+```
+
+### 2. Create a Virtual Environment
 
 Create and activate a Python virtual environment:
 
@@ -14,17 +19,17 @@ Create and activate a Python virtual environment:
 python3 -m venv venv
 source ./venv/bin/activate
 ```
-### 2. Install Required Packages
+### 3. Install Required Packages
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Obtain the Dataset
+### 4. Obtain the Dataset
 
 Please [contact us](https://www.ims.uni-stuttgart.de/institut/team/Schlechtweg/) to request access to the dataset.
 
 
-### 4. Load the Dataset
+### 5. Load the Dataset
 After obtaining the dataset, provide the file paths in your notebook or script:
 
 ```bash
@@ -32,7 +37,7 @@ dev_df = pd.read_pickle("/path-to/dataset/dev.pkl")
 test_df = pd.read_pickle("/path-to/dataset/test.pkl")
 ```
 
-### 5. Run the Notebook
+### 6. Run the Notebook
 
 ### Citation
 
