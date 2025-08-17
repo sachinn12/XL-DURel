@@ -1,6 +1,6 @@
-# XL-DURel
+# [XL-DURel](https://huggingface.co/sachinn1/xl-durel)
 
-This repository contains the [**XL-DURel**](https://huggingface.co/sachinn1/xl-durel) along with instructions to reproduce the results presented in the paper: [XL-DURel: Finetuning Sentence Transformers for Ordinal Word-in-Context Classification](https://arxiv.org/pdf/2507.14578).
+This repository contains the instructions to reproduce the results presented in the paper: [XL-DURel: Finetuning Sentence Transformers for Ordinal Word-in-Context Classification](https://arxiv.org/pdf/2507.14578).
 
 ## Steps to Reproduce
 
