@@ -1,0 +1,14 @@
+dataset,language,krippendorff_alpha
+comedi,chinese,0.3304617881629688
+comedi,english,0.6558178328465568
+comedi,german,0.6811789373175257
+comedi,norwegian,0.5398343480519723
+comedi,russian,0.5477050336881577
+comedi,spanish,0.6516465903623251
+comedi,swedish,0.5692471075166157
+mcl-wic,arabic,0.6662381917958127
+mcl-wic,chinese,0.665548599360217
+mcl-wic,english,0.7560976097609761
+mcl-wic,french,0.6619901928119976
+mcl-wic,russian,0.6736143457151471
+wic,english,0.4199407891378695

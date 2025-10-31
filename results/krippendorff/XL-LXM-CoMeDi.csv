@@ -1,0 +1,14 @@
+dataset,language,krippendorff_alpha
+comedi,chinese,0.38
+comedi,english,0.65
+comedi,german,0.73
+comedi,norwegian,0.52
+comedi,russian,0.55
+comedi,spanish,0.66
+comedi,swedish,0.60
+mcl-wic,arabic,
+mcl-wic,chinese,
+mcl-wic,english,
+mcl-wic,french,
+mcl-wic,russian,
+wic,english,
