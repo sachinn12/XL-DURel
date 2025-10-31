@@ -39,9 +39,13 @@ test_df = pd.read_pickle("/path-to/dataset/test.pkl")
 
 ### 6. Run the Notebook
 
+```bash
+xl-durel.ipynb
+```
+
 ## XL-DURel-2
 
-[XL-DURel-2](https://huggingface.co/sachinn1/xl-durel2) is an extended version of the XL-DURel model. It has been trained on both the Ordinal WiC training and test splits.
+[XL-DURel-2](https://huggingface.co/sachinn1/xl-durel2) is an extended version of the XL-DURel model. It has been trained on both the Ordinal/Binary WiC training and test splits.
 
 ### Citation
 
