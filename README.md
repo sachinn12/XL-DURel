@@ -2,12 +2,6 @@
 
 This repository contains the [**XL-DURel**](https://huggingface.co/sachinn1/xl-durel) along with instructions to reproduce the results presented in the paper: [XL-DURel: Finetuning Sentence Transformers for Ordinal Word-in-Context Classification](https://arxiv.org/pdf/2507.14578).
 
-## Dataset Format
-
-| id | sentence1 | sentence2 | position1 | position2 | label |
-|----|-----------|-----------|-----------|-----------|----------|-------|
-| 0  | The bank will close at 5 PM. | He sat by the river bank and relaxed. | [4, 8] | [24, 28] | 0.0 |
-
 ## Steps to Reproduce
 
 Follow these steps to set up the environment and run the XL-DURel model:
